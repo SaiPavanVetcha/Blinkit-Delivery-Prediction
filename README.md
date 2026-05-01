@@ -97,18 +97,17 @@ Blinkit-Delivery-Prediction
 ## 🚀 How to Run
 
 ```bash
-# Clone repo
-git clone <your-ml-repo-link>
-cd <repo-name>
+# Clone the repository
+git clone https://github.com/SaiPavanVetcha/Blinkit-Delivery-Prediction
+cd Blinkit-Delivery-Prediction
+
+# (Optional) Create virtual environment
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Train model
-python src/train.py
-
-# Evaluate
-python src/evaluate.py
 ```
 ## 🔗 Integration with Data Warehouse
 
